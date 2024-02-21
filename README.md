@@ -12,24 +12,24 @@ This repository contains the tasks completed for the internship project. Each ta
 
 ## Task 2
 
-- **Branch**: `taskTwo`
-- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/taskTwo)
+- **Branch**: `TaskTwo`
+- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/TaskTwo)
 
 - **Status**: In progress
 - **Description**: []
 
 ## Task 3
 
-- **Branch**: `taskThree`
-- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/taskThree)
+- **Branch**: `TaskThree`
+- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/TaskThree)
 
 - **Status**: Not started
 - **Description**: []
 
 ## Task 4
 
-- **Branch**: `taskFour`
-- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/taskFour)
+- **Branch**: `TaskFour`
+- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/TaskFour)
 
 - **Status**: Not started
 - **Description**: []
