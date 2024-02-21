@@ -1,11 +1,11 @@
-# Project/Tasks Overview
+# Project Tasks Overview
 
 This repository contains the tasks completed for the internship project. Each task is developed in a separate branch.
 
 ## Task 1
 
 - **Branch**: `TaskOne`
-- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/taskOne)
+- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/TaskOne)
 
 - **Status**: Completed
 - **Description**: The program allows users to play a number guessing game with customizable difficulty levels and provides feedback on their guesses until they either succeed or exhaust their attempts.
