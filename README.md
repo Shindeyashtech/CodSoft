@@ -4,7 +4,7 @@ This repository contains the tasks completed for the internship project. Each ta
 
 ## Task 1
 
-- **Branch**: `taskOne`
+- **Branch**: `TaskOne`
 - [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/taskOne)
 
 - **Status**: Completed
