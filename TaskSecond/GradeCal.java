@@ -1,4 +1,8 @@
 import java.util.*;
+
+
+
+
 class Grade {
 
     private double math, science, hindi, english, marathi, evs;
@@ -64,7 +68,17 @@ class Grade {
     }
 
 }
+class GradeCalculator {
 
+    Grade grade = new Grade();
+    public double calculateTotalMarks(Grade grade) {
+        return grade.getEnglish() + grade.getMarathi() + grade.getHindi() + grade.getMath() + grade.getScience() + grade.getEvs();
+    }
+
+    public double calculateAverageMarks(Grade grade) {
+        return calculateTotalMarks(grade) / 6; // assuming there are 6 subjects
+    }
+}
 
 
 public class GradeCal {
@@ -105,5 +119,13 @@ public class GradeCal {
 
         marksObtain.printMarks();
 
+
+                 GradeCalculator g1Calculator = new GradeCalculator();
+                 double total=g1Calculator.calculateTotalMarks(marksObtain);
+                double average = g1Calculator.calculateAverageMarks(marksObtain);
+
+
+                System.out.println("total :" + total);
+                System.out.println("average :" + average);
     }}
 
