@@ -15,8 +15,8 @@ This repository contains the tasks completed for the internship project. Each ta
 - **Branch**: `TaskTwo`
 - [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/TaskTwo)
 
-- **Status**: In progress
-- **Description**: []
+- **Status**: Completed
+- **Description**: The program Student Grade Calculator, you can effortlessly calculate your total marks, average percentage, and corresponding grade. Enhance your academic journey by leveraging this powerful tool for accurate grade assessment! 🎓✨
 
 ## Task 3
 
