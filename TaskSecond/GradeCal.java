@@ -9,12 +9,12 @@ class Grade {
 
     void printMarks() {
 
-        System.out.print("|| English :" + english+" ||");
-        System.out.print(" Marathi :" + marathi+" ||");
-        System.out.print(" Hindi :" + hindi+" ||");
-        System.out.print(" Math :" + math+" ||");
-        System.out.print(" Science :" + science+" ||");
-        System.out.print(" EVS :" + evs+" ||");
+        System.out.print(" \n|| English : 100/" + english+" ||");
+        System.out.print(" Marathi : 100/" + marathi+" ||");
+        System.out.print(" Hindi : 100/" + hindi+" ||");
+        System.out.print(" Math : 100/" + math+" ||");
+        System.out.print(" Science : 100/" + science+" ||");
+        System.out.print(" EVS : 100/" + evs+" ||\n");
     }
 
     public int getMath() {
@@ -105,10 +105,10 @@ public class GradeCal {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Welcome to Student Grade calculator");
-        System.out.println("Enter you Name");
+        System.out.println("Welcome to Student Grade Calculator");
+        System.out.println("Enter you Name : ");
         String name = sc.nextLine();
-        System.out.println("\nHey!!  " + name + " Please Enter Your Marks\n");
+        System.out.println("\nHey!! " + name + ", Please Enter Your Marks\n");
 
         int englishGrade, marathiGrade, hindiGrade, mathGrade, scienceGrade, evsGrade;
 
@@ -135,9 +135,9 @@ public class GradeCal {
         double average = (double) g1Calculator.calculateAverageMarks(marksObtain);
 
 
-        System.out.println("Your total marks for the 12th Class are : " + total +", Representing your overall performance throughout the academic year." );
+        System.out.println("\nYour total marks for the 12th Class Out of : [ 600/" + total +" ], Representing your overall performance throughout the academic year." );
         
-        System.out.println("Your cumulative Average for the 12th Class is : " + average + "%" + ", Encompassing all assessments throughout the academic year.");
+        System.out.println("\nYour cumulative Average for the 12th Class is : [ " + average + "%" + " ], Encompassing all assessments throughout the academic year.");
         
 
         Grades g = new Grades();
@@ -146,9 +146,9 @@ public class GradeCal {
 
 
           switch (showGrade) {
-            case "A","B","C","D","E" -> System.out.println("Dear Student,"+name+" After careful evaluation, Your final grade for the course is :"+showGrade+", Indicating Successful Completion.");
+            case "A","B","C","D","E" -> System.out.println("\nDear "+name+", After careful evaluation, Your final grade for the course is : [ "+showGrade+" ], Indicating Successful Completion.\n");
     
-            default ->  System.out.println("Dear Student,"+name+" After careful evaluation, Your final grade for the course is :"+showGrade+", Indicating that you did not meet the passing criteria.");
+            default ->  System.out.println("\nDear "+name+", \nAfter careful Evaluation, Your final grade for the course is : ["+showGrade+"], Indicating that you did not meet the passing criteria.\n");
             
           }
     }
