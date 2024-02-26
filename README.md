@@ -1,6 +1,7 @@
 1.**Import Statements:**
 -import java.util.*;
 -This imports all classes from the `java.util` package, including `Scanner`, which is used for user input.
+
 2.**Grade Class:**
 -class Grade {
 -This class represents the grades of a student.
