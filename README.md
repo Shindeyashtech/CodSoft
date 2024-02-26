@@ -1,14 +1,23 @@
 1.**Import Statements:**
+
 -import java.util.*;
+
 -This imports all classes from the `java.util` package, including `Scanner`, which is used for user input.
 
 2.**Grade Class:**
+
 -class Grade {
+
 -This class represents the grades of a student.
+
     -private int math, science, hindi, english, marathi, evs;
+
 -These private integer variables store the marks of the student in different subjects.
+    
     -public Grade() {}
+
 -This constructor initializes objects of the `Grade` class.
+
     -void printMarks() {
 -This method prints the marks obtained in each subject.
         System.out.print(" \n|| English : 100/" + english + " ||");
