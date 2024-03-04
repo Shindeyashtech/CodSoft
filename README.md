@@ -1,42 +1,55 @@
-# Project Tasks Overview
-This repository contains the tasks completed for the internship project. Each task is developed in a separate branch.
+# Bank Management System
 
-## Task 1
+This is a simple bank management system implemented in Java. It allows users to interact with their bank account, including checking balance, depositing, withdrawing, and viewing previous transactions.
 
-- **Branch**: `TaskOne`
-- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/TaskOne)
+## Code Explanation
 
-- **Status**: Completed
-- **Description**: The program allows users to play a number guessing game with customizable difficulty levels and provides feedback on their guesses until they either succeed or exhaust their attempts.
+### Main Class (Bank)
 
-## Task 2
+1. Importing necessary libraries.
+2. Defining the main class Bank.
+3. Inside the main method:
+   - Printing a welcome message.
+   - Initializing a Scanner object for user input.
+   - Entering a continuous loop for user interaction.
+   - Prompting the user to input account number and PIN.
+   - Checking the validity of the account number and PIN.
+   - Displaying a welcome message if the credentials are correct.
+   - Creating a BankAccount object for the authenticated user.
+   - Calling the showMenu method of BankAccount to display the banking options.
 
-- **Branch**: `TaskTwo`
-- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/TaskTwo)
+### BankAccount Class
 
-- **Status**: Completed
-- **Description**: The program Student Grade Calculator, you can effortlessly calculate your total marks, average percentage, and corresponding grade. Enhance your academic journey by leveraging this powerful tool for accurate grade assessment! 🎓✨
+1. Defining the BankAccount class.
+2. Declaring instance variables for balance, previous transaction, and account number.
+3. Constructor to initialize the account number.
+4. Methods for depositing, withdrawing, and getting the previous transaction.
+5. printMenu method to display the menu options.
+6. showMenu method to display the menu and handle user input using a do-while loop.
 
-## Task 3
+### isValidAccountNumber Method
 
-- **Branch**: `TaskThree`
-- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/TaskThree)
+1. A dummy method for validating the account number.
+2. Returns true if the account number matches a predefined value.
 
-- **Status**: Not started
-- **Description**: []
+### isValidPin Method
 
-## Task 4
+1. A dummy method for validating the PIN.
+2. Returns true if the PIN matches a predefined value.
 
-- **Branch**: `TaskFour`
-- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/TaskFour)
+## How to Run
 
-- **Status**: Not started
-- **Description**: []
+1. Compile the Java files using javac Bank.java.
+2. Run the compiled program using java Bank.
 
-## Task 5
+## Usage
 
-- **Branch**: `TaskFive`
-- [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/TaskFive)
+1. Enter your account number.
+2. Enter your PIN.
+3. Choose from the menu options to perform banking operations.
 
-- **Status**: Not started
-- **Description**: []
+## Notes
+
+- This is a basic implementation for demonstration purposes.
+- Replace the dummy validation methods with actual validation logic for real-world applications.
+- Additional error handling and security measures should be implemented for a production-ready system.
