@@ -23,8 +23,9 @@ This repository contains the tasks completed for the internship project. Each ta
 - **Branch**: `TaskThree`
 - [View Branch](https://github.com/Shindeyashtech/CodSoft/tree/TaskThree)
 
-- **Status**: Not started
-- **Description**: []
+- **Status**: Completed
+- **Description**: This project implements a simple ATM (Automated Teller Machine) interface in Java. Users can perform basic banking operations such as withdrawing, depositing, checking balance, and viewing previous transactions. The interface provides a user-friendly menu-driven system with error handling to ensure smooth and secure transactions.
+
 
 ## Task 4
 
