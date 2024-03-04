@@ -1,5 +1,4 @@
 # Project Tasks Overview
-
 This repository contains the tasks completed for the internship project. Each task is developed in a separate branch.
 
 ## Task 1
